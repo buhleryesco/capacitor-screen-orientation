@@ -1,7 +1,7 @@
 {
-  "name": "@capgo/capacitor-screen-orientation",
-  "version": "8.1.10",
-  "description": "Screen orientation plugin with support for bypassing orientation lock",
+  "name": "@sbuhler/capacitor-screen-orientation",
+  "version": "8.1.11",
+  "description": "Fork of @capgo/capacitor-screen-orientation with Android orientation bug fix",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,16 +15,19 @@
     "Package.swift",
     "CapgoCapacitorScreenOrientation.podspec"
   ],
-  "author": "Cap-go <contact@capgo.app>",
+  "author": "Spencer Buhler",
+  "contributors": [
+    "Cap-go <contact@capgo.app> (Original Author)"
+  ],
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cap-go/capacitor-screen-orientation.git"
+    "url": "git+https://github.com/buhleryesco/capacitor-screen-orientation.git"
   },
   "bugs": {
-    "url": "https://github.com/Cap-go/capacitor-screen-orientation/issues"
+    "url": "https://github.com/buhleryeso/capacitor-screen-orientation/issues"
   },
-  "homepage": "https://capgo.app/docs/plugins/screen-orientation/",
+  "homepage": "https://buhleryesco/docs/plugins/screen-orientation/",
   "keywords": [
     "capacitor",
     "plugin",
